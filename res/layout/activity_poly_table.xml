@@ -1,0 +1,285 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+
+	<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:id="@+id/tablelayout"
+	    android:scrollbars="vertical"
+	    android:stretchColumns="*" >
+	
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="Name" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Chemical Symbol" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Oxidation Number" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#000000" />
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="ammonium" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="N-H4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1+" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="acetate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="C2-H3-O2" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="bicarbonate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="H-C-O3" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="bisulfate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="H-S-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="bisulfite" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="H-S-O3" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="bromate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Br-O3" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="bromite" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Br-O2" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="carbonate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="C-O3" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="2-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="chlorate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Cl-O3" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="chromate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Cr-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="2-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="cyanide" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="C-N" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="dichromate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Cr2-O7" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="2-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="ferrocyanide" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Fe-(C-N)6" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="3-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="hydroxide" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="OH" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="hypobromite" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Br-O" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="hypochlorite" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Cl-O" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="hypoiodate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="I-O" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="iodate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="I-O3" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="iodite" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="I-O2" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="nitrate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="N-O3" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="nitrite" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="N-O2" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="oxalate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="C2-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="2-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="perbromate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="H-Br-O3" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="perchlorate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Cl-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="permanganate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="Mn-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="peroxide" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="O2" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="2-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="phospate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="P-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="3-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="sulfate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="S-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="2-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="sulfite" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="S-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="2-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="thiosulfite" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="S2-O3" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="2-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="hydrogen phosphate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="H-P-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="2-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	        <TextView android:text="dihydrogen phosphate" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="H2-P-O4" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	        <TextView android:text="1-" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_weight="1"/>
+	    </TableRow>
+	    
+	</TableLayout>
+</ScrollView>

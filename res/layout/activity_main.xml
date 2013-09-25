@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:background="#FFFFFF" >
+    
+    <Button android:id="@+id/ElementSearchButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Elements"
+        android:onClick="searchElements" />
+    
+    <Button android:id="@+id/PolyatomicTableButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Polyatomic Ion table"
+        android:onClick="polyTable" />
+    
+    <Button android:id="@+id/SolubilityTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Solubility Table"
+        android:onClick="solubilityTable" />
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+	    <ImageView android:id="@+id/AtomImage"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:src="@drawable/uranium" />
+    </RelativeLayout>
+    
+</LinearLayout>

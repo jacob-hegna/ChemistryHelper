@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chemistry Helper</string>
+    <string name="action_settings">Settings</string>
+    <string name="enterElementBoxMessage">Name of an element</string>
+    <string name="enterElementButtonMessage">Enter</string>
+    <string name="title_activity_search_element">Search results</string>
+    <string name="title_activity_element_data">ElementData</string>
+    <string name="title_activity_element_display">Element Display</string>
+    <string name="title_activity_element_search">Element Search</string>
+    <string name="title_activity_solubility_table">Solubility Table</string>
+    <string name="title_activity_poly_table">Polyatomic Ion Table</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout">
+    
+    <TextView android:id="@+id/atomicName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView android:id="@+id/atomicSymbol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView android:id="@+id/atomicNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView android:id="@+id/atomicMass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView android:id="@+id/atomicGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView android:id="@+id/atomicPeriod"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

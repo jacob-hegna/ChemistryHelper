@@ -1,0 +1,79 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jacobhegna.chemistryhelper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jacobhegna.chemistryhelper.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jacobhegna.chemistryhelper.SearchElementActivity"
+            android:label="@string/title_activity_search_element"
+            android:parentActivityName="com.jacobhegna.chemistryhelper.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jacobhegna.chemistryhelper.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jacobhegna.chemistryhelper.ElementData"
+            android:label="@string/title_activity_element_data"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jacobhegna.chemistryhelper.ElementDisplayActivity"
+            android:label="@string/title_activity_element_display"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jacobhegna.chemistryhelper.ElementSearchActivity"
+            android:label="@string/title_activity_element_search"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jacobhegna.chemistryhelper.SolubilityTable"
+            android:label="@string/title_activity_solubility_table" >
+        </activity>
+        <activity
+            android:name="com.jacobhegna.chemistryhelper.SolubilityTableActivity"
+            android:label="@string/title_activity_solubility_table"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jacobhegna.chemistryhelper.PolyTableActivity"
+            android:label="@string/title_activity_poly_table"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
